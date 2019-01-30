@@ -1,0 +1,14 @@
+/* 
+flex-direction=>flow of elements in conatiner right or left
+align-items=>vertically alignment top to down
+justify-content=> horizontally alignment left to right
+ */
+.container {
+  height: 50vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  border: 2px solid black;
+  flex-direction: row;
+}
